@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Extension",
+    "version": "1.0.0",
+    "description": "Highly recommended",
+    "manifest_version": 3,
+    "author": "Ansh Varshney",
+    "action": {
+        "default_popup":"index.html",
+        "default_title":"hi ... " 
+    }
+}
