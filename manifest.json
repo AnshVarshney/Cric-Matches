@@ -6,6 +6,6 @@
     "author": "Ansh Varshney",
     "action": {
         "default_popup":"index.html",
-        "default_title":"hi ... " 
+        "default_title":"Cric Scorer" 
     }
 }
