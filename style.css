@@ -1,18 +1,18 @@
 body{
     min-width: 400px;
-    /* background-color: aqua; */
-    background-color: blanchedalmond;
+    background-color: rgb(95, 93, 90);
 }
 
-p{
+.subheadings{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    color: rgb(34, 119, 34);
+    color: rgb(246, 249, 250);
 }
 
-#livematches,#pastmatches{
-    font-size: 1rem;
+.headings{
+    font-size: 2.5rem;
     font-weight: bold;
-    margin: 5px 10px;
+    text-align: center;
+    color: rgb(246, 249, 250);
 }
