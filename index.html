@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My chrome Extension</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cric Scorer</title>
 </head>
+
 <body>
-    Hello 
+    <p class="headings">Cric Scorer</p>
+    <p class="subheadings">Live Matches</p>
+    <div class="container" id="livematches">
+        <div class="card text-bg-dark mb-3" style="max-width: 25rem;" >
+            <div class="card-header"></div>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="subheadings">Past Matches</p>
+    <div class="container" id="pastmatches">
+        <div class="card text-bg-dark mb-3" style="max-width: 25rem;" >
+            <div class="card-header"></div>
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div>
+    <div class="container">
+        <p>Future Matches</p>
+        <ul id="futurematches">
+        </ul>
+    </div>
+    <div class="container">
+        <p>Past Matches</p>
+        <ul id="pastmatches">
+        </ul>
+    </div> -->
 </body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
 </html>
